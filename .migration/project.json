@@ -1,5 +1,9 @@
 {
   "type": "xwalk",
   "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
-  "contentHostUrl": "author-p141866-e1455422.adobeaemcloud.com"
+  "contentHostUrl": "author-p141866-e1455422.adobeaemcloud.com",
+  "aemSitePath": "/content/march-3-xwalk",
+  "aemAssetsFolderPath": "/content/dam/march-3-xwalk",
+  "aemSiteName": "march-3-xwalk",
+  "aemSiteTitle": "Blefebvr march-3-xwalk"
 }
