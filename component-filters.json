@@ -34,15 +34,87 @@
     ]
   },
   {
+    "id": "cards-featured",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
     ]
   },
   {
+    "id": "carousel-press",
+    "components": [
+      "carousel-press-item"
+    ]
+  },
+  {
     "id": "carousel",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "columns-feature",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-info",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-mixed",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-promo",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {

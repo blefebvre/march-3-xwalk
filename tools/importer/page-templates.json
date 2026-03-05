@@ -1,0 +1,197 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.abbvie.com/"
+      ],
+      "description": "AbbVie corporate homepage with hero, featured content, and promotional sections",
+      "blocks": [
+        {
+          "name": "hero-video",
+          "instances": [
+            ".homepage-hero-controller"
+          ]
+        },
+        {
+          "name": "carousel-press",
+          "instances": [
+            ".carousel.cmp-carousel--rss"
+          ]
+        },
+        {
+          "name": "cards-featured",
+          "instances": [
+            ".homepage-overlap .cardpagestory.card-standard"
+          ]
+        },
+        {
+          "name": "hero-spotlight",
+          "instances": [
+            ".video.cmp-video-xx-large"
+          ]
+        },
+        {
+          "name": "columns-mixed",
+          "instances": [
+            ".cardpagestory.card-dashboard.show-image-hide-desc",
+            "#container-3a42f76c63 .grid.cmp-grid-custom"
+          ]
+        },
+        {
+          "name": "columns-promo",
+          "instances": [
+            "#container-c63c87a46c .grid"
+          ]
+        },
+        {
+          "name": "columns-feature",
+          "instances": [
+            "#section02 ~ .grid.cmp-grid-custom.no-bottom-margin"
+          ]
+        },
+        {
+          "name": "columns-info",
+          "instances": [
+            "#section03 ~ .grid"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".homepage-hero-controller",
+          "style": null,
+          "blocks": [
+            "hero-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Press Releases and Featured",
+          "selector": ".container.abbvie-container.homepage-overlap",
+          "style": null,
+          "blocks": [
+            "carousel-press",
+            "cards-featured"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Patients",
+          "selector": "#section01",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#section01 .cmp-teaser__title",
+            "#section01 .cmp-teaser__description",
+            "#section01 .cmp-teaser__action-link"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Video Highlight",
+          "selector": ".video.cmp-video-xx-large",
+          "style": null,
+          "blocks": [
+            "hero-spotlight"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Science and Innovation",
+          "selector": [
+            "#teaser-a2987e48b8",
+            ".cardpagestory.card-dashboard.show-image-hide-desc"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-mixed"
+          ],
+          "defaultContent": [
+            "#teaser-a2987e48b8 .cmp-teaser__pretitle",
+            "#teaser-a2987e48b8 .cmp-teaser__title",
+            "#teaser-a2987e48b8 .cmp-teaser__description"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Persistence Lab Podcast",
+          "selector": ".container.abbvie-container.default-radius.cmp-container-xxx-large",
+          "style": "dark",
+          "blocks": [
+            "columns-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "Culture of Curiosity",
+          "selector": [
+            "#section02",
+            "#section02 ~ .grid.cmp-grid-custom.no-bottom-margin"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-feature"
+          ],
+          "defaultContent": [
+            "#section02 .cmp-teaser__pretitle",
+            "#section02 .cmp-teaser__title",
+            "#section02 .cmp-teaser__description"
+          ]
+        },
+        {
+          "id": "section-8",
+          "name": "Explore Opportunities CTA",
+          "selector": ".container.abbvie-container.medium-radius.cmp-container-xxx-large.height-short",
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            ".container.abbvie-container.medium-radius.cmp-container-xxx-large.height-short .cmp-title__text",
+            ".container.abbvie-container.medium-radius.cmp-container-xxx-large.height-short .cmp-text",
+            ".container.abbvie-container.medium-radius.cmp-container-xxx-large.height-short .cmp-button"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "Investor Resources",
+          "selector": [
+            "#section03",
+            "#section03 ~ .grid"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-info"
+          ],
+          "defaultContent": [
+            "#section03 .cmp-teaser__pretitle",
+            "#section03 .cmp-teaser__title",
+            "#section03 .cmp-teaser__description"
+          ]
+        },
+        {
+          "id": "section-10",
+          "name": "ESG",
+          "selector": [
+            "#section04",
+            ".container.abbvie-container.large-radius.cmp-container-full-width.height-default.no-bottom-margin"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-mixed"
+          ],
+          "defaultContent": [
+            "#section04 .cmp-teaser__pretitle",
+            "#section04 .cmp-teaser__title",
+            "#section04 .cmp-teaser__description"
+          ]
+        }
+      ]
+    }
+  ]
+}

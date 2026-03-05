@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-promo",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-04T22:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "AbbVie corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "promotional",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + subheading + paragraph + CTA link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["promotional two-column layouts on dark backgrounds", "podcast or media promotional sections", "image-text side-by-side promos"],
+    "notSuitableFor": ["light background layouts", "three-column layouts", "text-only columns"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-04T22:12:00.000Z"
+  }
+}

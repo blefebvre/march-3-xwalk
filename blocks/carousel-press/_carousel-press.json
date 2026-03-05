@@ -1,0 +1,70 @@
+{
+  "definitions": [
+    {
+      "title": "Carousel Press",
+      "id": "carousel-press",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Carousel Press",
+              "filter": "carousel-press"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Carousel Press Slide",
+      "id": "carousel-press-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Carousel Press Slide",
+              "model": "carousel-press-item"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "carousel-press-item",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "media_image",
+          "label": "Background Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "media_imageAlt",
+          "value": "",
+          "label": "Background Alt"
+        },
+        {
+          "component": "richtext",
+          "name": "content_text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "carousel-press",
+      "components": [
+        "carousel-press-item"
+      ]
+    }
+  ]
+}

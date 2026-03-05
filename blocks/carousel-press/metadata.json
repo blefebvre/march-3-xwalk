@@ -1,0 +1,31 @@
+{
+  "variantName": "carousel-press",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-03-04T22:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "AbbVie corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "press-releases",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "date + headline link per slide",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["press release carousels", "news headline rotators", "text-only sliding content"],
+    "notSuitableFor": ["image-heavy carousels", "product showcase sliders"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-04T22:12:00.000Z"
+  }
+}

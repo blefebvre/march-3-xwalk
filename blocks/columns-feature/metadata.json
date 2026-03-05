@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-04T22:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/",
+    "originPage": "AbbVie corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-columns",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "3 equal columns each with image + paragraph + CTA link",
+    "buttonCount": 3,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": ["three-column feature layouts with images", "equal-weight content columns", "team or department showcases"],
+    "notSuitableFor": ["two-column layouts", "dark background sections", "columns without images"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-04T22:12:00.000Z"
+  }
+}
